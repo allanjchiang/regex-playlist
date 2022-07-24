@@ -45,7 +45,9 @@ input + p {
 }
 
 input.invalid + p {
-    
+    opacity: 1;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 
