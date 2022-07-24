@@ -36,6 +36,16 @@ input.invalid {
 input + p {
     font-family: arial;
     font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    color: orange;
+    opacity: 0;
+    height: 0;
+}
+
+input.invalid + p {
+    
 }
 
 
