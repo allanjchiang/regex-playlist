@@ -6,7 +6,7 @@ const patterns = {
     email: /^\w{3,64}@[a-z]{3,15}\.[a-z]{2,3}\.?[a-z]{0,3}?$/,
     password: /^[\w@-]{8,20}$/,
     telephone: /^\d{10}$/,
-    slug: /^[a-z0-9-]{8,20}$/
+    slug: /^[a-z\d-]{8,20}$/
 };
 
 // validation function
